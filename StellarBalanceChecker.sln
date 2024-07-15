@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarBalanceChecker", "StellarBalanceChecker\StellarBalanceChecker.csproj", "{ED346B30-04A9-47A5-8982-FEF7196CB968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED346B30-04A9-47A5-8982-FEF7196CB968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED346B30-04A9-47A5-8982-FEF7196CB968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED346B30-04A9-47A5-8982-FEF7196CB968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED346B30-04A9-47A5-8982-FEF7196CB968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71EC2378-5028-432B-ABCA-A4B0D2AFC158}
+	EndGlobalSection
+EndGlobal
