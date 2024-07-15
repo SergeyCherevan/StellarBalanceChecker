@@ -37,12 +37,12 @@ try
     {
         if (balance.AssetType == "native")
         {
-            Console.WriteLine($"Баланс XLM: {balance.BalanceString}");
-            return;
+            Console.WriteLine($"Баланс\tXLM:\t{balance.BalanceString}");
+            continue;
         }
-    }
 
-    Console.WriteLine("Баланс XLM не найден.");
+        Console.WriteLine($"Баланс\t{balance.AssetCode}\tby\t{balance.AssetIssuer}:\t{balance.BalanceString}");
+    }
 }
 catch (HttpResponseException ex)
 {
