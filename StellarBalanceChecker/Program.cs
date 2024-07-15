@@ -1,4 +1,6 @@
 ﻿using StellarDotnetSdk;
+using StellarDotnetSdk.Accounts;
+using StellarDotnetSdk.Requests;
 
 // namespace StellarBalanceChecker;
 
@@ -13,6 +15,17 @@ if (string.IsNullOrEmpty(walletAddress))
 
 try
 {
+    // Проверка корректности адреса
+    try
+    {
+        var keyPair = KeyPair.FromAccountId(walletAddress);
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("Введен некорректный адрес криптокошелька.");
+        return;
+    }
+
     // Подключение к основной сети Stellar
     var server = new Server("https://horizon.stellar.org");
 
@@ -30,6 +43,10 @@ try
     }
 
     Console.WriteLine("Баланс XLM не найден.");
+}
+catch (HttpResponseException ex)
+{
+    Console.WriteLine($"Произошла ошибка при обращении к серверу: {ex.Message}");
 }
 catch (Exception ex)
 {
