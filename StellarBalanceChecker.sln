@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarBalanceChecker", "StellarBalanceChecker\StellarBalanceChecker.csproj", "{ED346B30-04A9-47A5-8982-FEF7196CB968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StellarBalanceChecker", "StellarBalanceChecker\StellarBalanceChecker.csproj", "{ED346B30-04A9-47A5-8982-FEF7196CB968}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendParticipationTokensTransactionBuilder", "SendParticipationTokensTransactionBuilder\SendParticipationTokensTransactionBuilder.csproj", "{033D8799-4159-4F8E-B6ED-F1D9EA41B9EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ED346B30-04A9-47A5-8982-FEF7196CB968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED346B30-04A9-47A5-8982-FEF7196CB968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED346B30-04A9-47A5-8982-FEF7196CB968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033D8799-4159-4F8E-B6ED-F1D9EA41B9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033D8799-4159-4F8E-B6ED-F1D9EA41B9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033D8799-4159-4F8E-B6ED-F1D9EA41B9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033D8799-4159-4F8E-B6ED-F1D9EA41B9EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
